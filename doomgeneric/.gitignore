@@ -1,0 +1,14 @@
+*.o
+*.obj
+*.exe
+*.DS_Store
+*.log
+*.user
+*~
+.vs/
+Debug/
+Release/
+Build/
+# built executable only (anchored so it doesn't match the source folder)
+/doomgeneric/doomgeneric
+doomgeneric.map
