@@ -40,9 +40,11 @@ You can transfer the bynary in two ways:
 
 Using netcat:
 
+*Start netcat on the UniFi first.*
+
 On the computer, inside the folder containing the doom-udr binary and DOOM1.WAD:
 ```
-tar -cvf - * | nc 192.168.1.30
+tar -cvf - * | nc 192.168.1.30 9999
 ```
 
 On the UniFi:
